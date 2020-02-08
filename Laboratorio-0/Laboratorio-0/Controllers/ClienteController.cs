@@ -60,6 +60,7 @@ namespace Laboratorio_0.Controllers
 
         }
 
+
         // GET: Cliente/Edit/5
         public ActionResult Edit(int id)
         {

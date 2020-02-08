@@ -27,5 +27,28 @@ namespace Laboratorio_0.Models
             }
         }
 
+        //Intentamos ordenar la lista alfabaticamente con este codigo pero no nos funciono
+        /*public void Ordenalfabetico(ClienteModel[] vector, int n)
+        {
+
+           ClienteModel aux;
+
+           for (int i = 0; i < n-1; i++)
+           {
+               for (int j = i; j < n; j++)
+               {
+                   if (vector[i].Nombre.CompareTo(vector[j].Nombre))
+                   {
+                       aux = vector[i];
+                       vector[i] = vector[j];
+                       vector[j] = aux; 
+                   }
+
+               }
+
+           }
+        }*/
+
+
     }
 }
